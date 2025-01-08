@@ -1,2 +1,2 @@
 # audio-dsp
-Audio DSP assignments for CS489 
+Audio DSP experiments
