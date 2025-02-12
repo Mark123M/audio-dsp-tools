@@ -45,10 +45,10 @@ def Q1():
 
     fr=np.arange(Nr)/N*fs 
     ax1.plot(f,np.abs(Y))
-    ax1.set_title('FFT (abs)')
+    ax1.set_title('Trumpet (5th harmonic removed)')
 
     ax2.plot(fr,np.abs(Yr))
-    ax2.set_title('RFFT (abs)')
+    ax2.set_title('Trumpet (original)')
 
     #ax_win.plot(th,h)
     #ax_win.set_title('Filter impulse response: ' + fh)
@@ -100,10 +100,10 @@ def Q2():
 
     fr=np.arange(Nr)/N*fs 
     ax1.plot(f,np.abs(Y))
-    ax1.set_title('FFT (abs)')
+    ax1.set_title('Trumpet (5th harmonic boosted)')
 
     ax2.plot(fr,np.abs(Yr))
-    ax2.set_title('RFFT (abs)')
+    ax2.set_title('Trumpet (original)')
 
     #ax_win.plot(th,h)
     #ax_win.set_title('Filter impulse response: ' + fh)
@@ -155,10 +155,10 @@ def Q3():
 
     fr=np.arange(Nr)/N*fs 
     ax1.plot(f,np.abs(Y))
-    ax1.set_title('FFT (abs)')
+    ax1.set_title('Oboe (3rd harmonic removed)')
 
     ax2.plot(fr,np.abs(Yr))
-    ax2.set_title('RFFT (abs)')
+    ax2.set_title('Oboe (original)')
 
     #ax_win.plot(th,h)
     #ax_win.set_title('Filter impulse response: ' + fh)
@@ -210,10 +210,10 @@ def Q4():
 
     fr=np.arange(Nr)/N*fs 
     ax1.plot(f,np.abs(Y))
-    ax1.set_title('FFT (abs)')
+    ax1.set_title('Oboe (3rd harmonic boosted)')
 
     ax2.plot(fr,np.abs(Yr))
-    ax2.set_title('RFFT (abs)')
+    ax2.set_title('Oboe (original)')
 
     #ax_win.plot(th,h)
     #ax_win.set_title('Filter impulse response: ' + fh)
@@ -227,5 +227,5 @@ def Q4():
     plt.show()
 #Q1()
 #Q2()
-Q3()
-#Q4()
+#Q3()
+Q4()
