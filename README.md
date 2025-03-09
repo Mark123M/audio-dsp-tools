@@ -1,2 +1,1 @@
-# audio-dsp
-Audio DSP experiments
+# audio-dsp-tools
