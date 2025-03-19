@@ -186,7 +186,7 @@ def Q4():
     f0 = 229
     harmonic_freq = f0 * 5  # 5th harmonic frequency
 
-    H = np.ones_like(y)
+    H = np.ones_like(Y)
     k = int((680 * N) / fs)
     k2 = int((720 * N) / fs)
     print(k, k2)
@@ -226,6 +226,6 @@ def Q4():
 
     plt.show()
 #Q1()
-#Q2()
+Q2()
 #Q3()
-Q4()
+#Q4()
